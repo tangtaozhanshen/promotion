@@ -1,5 +1,14 @@
-# Local directories
-*.log
-*.tmp
+# 敏感信息
+*.token
+*key*
+*.pem
+*.priv
+
+# 系统文件
 .DS_Store
 .vscode/
+*.log
+
+# 临时文件
+*.tmp
+*.temp
